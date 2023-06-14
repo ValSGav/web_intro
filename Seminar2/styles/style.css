@@ -1,0 +1,45 @@
+.header_style{
+    background-color: rgb(110, 152, 191);
+    text-align:left;
+    padding: 10px;
+}
+.main_style{
+    background-color: rgb(121, 139, 156);
+    padding: 10px;
+}
+
+.footer_style{
+    background-color: rgb(127, 99, 112);
+    padding: 10px;
+}
+
+.nav_style{
+    background-color: rgb(87, 98, 108);
+    padding: 10px; 
+}
+
+.img_style{
+    float: left;
+    margin-right: 10px;
+    width:20%;
+}
+
+
+.menu_item{
+    background-color: burlywood;
+    padding: 3px;
+
+    border-color: aliceblue;
+    border-radius: 6px;
+    text-decoration: none;   
+}
+
+div {
+    background-color: antiquewhite;
+    padding: 15px;
+    margin: 15px 10% 15px 10%;
+}
+
+.list_style{
+    list-style-type: disc;
+}

@@ -3,41 +3,57 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Сквозной пример для семинаров по веб</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="styles/style.css">
     <script src="app.js" defer></script>
 </head>
 
-<link rel="stylesheet" href="style.css">
-
 <body>
     <div>
-        <header>
-            <h1>Пример сайта</h1>
+
+        <header class="header_style">
+
+            <h1>Просто страничка для тренировки</h1>
         </header>
-        <main>
-            <nav>
-                <span><a href="index.html">Главная</a></span>
-                <span><a href="gallery.html">Галерея</a></span>
-            </nav>
-            <div>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et perferendis illo doloremque omnis! Illo
-                    libero cumque sunt atque exercitationem repudiandae magnam, iste asperiores facilis quidem nisi
-                    laborum quod. Eligendi, enim.
-                </p>
+        <hr>
+        <main class="main_style">
+            <div class="nav_style">
+                <nav>
+                    <span><a class="menu_item" href="gallery.html">Галерея</a></span>
+                    <span><a class="menu_item" href="calc.html">Калькулятор</a></span>
+                    <span><a class="menu_item" href="chat.html">Чат</a></span>
+                    <span><a class="menu_item" href="welcome.html">Страница приветствия</a></span>
+                </nav>
             </div>
-            <h3>Пример маркированного списка</h3>
-            <ol>
-                <li>Строка 1</li>
-                <li>Строка 2</li>
-                <li>Строка 3</li>
-                <li>Строка 4</li>
-            </ol>
+           
+            <div class="nav_style">
+                <img class="img_style" src="img/scale_1200.webp" alt="Картинка с роботиком">
+                <p class="text_lorem_style">Lorem <i>ipsum</i> dolor sit amet, consectetur adipisicing elit. Repudiandae
+                    explicabo optio laboriosam corporis et aliquid facilis, accusantium, deleniti ipsa amet quos velit
+                    nulla tenetur, error unde dolores quam dolorum laudantium.
+                </p>
+            </div >
+
+            <div class="nav_style">
+                <input type="text" placeholder="Введите сообщение">
+                <button>Отправить</button>
+            </div>
+           
+            <div class="footer_style">
+                <ol>
+                    <li>Для начала</li>
+                    <li>Продолжая</li>
+                    <li>И так далее</li>
+                </ol>
+            </div>
+
         </main>
-        <footer>
-            (C) 2023
+        <hr>
+        <footer class="footer_style">
+            (C) 2023 VS.Gavrilov
         </footer>
+
     </div>
 </body>
 
